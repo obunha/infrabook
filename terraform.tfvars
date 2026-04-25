@@ -1,6 +1,6 @@
 location        = "South Africa North"
 resource_prefix = "epicbook-prod"
-vm_size         = "Standard_B2ats_v2"
+vm_size         = "Standard_DS1_v2"
 admin_username  = "azureuser"
 public_key      = "~/.ssh/test_rsa.pub"
 db_name         = "bookstore"
