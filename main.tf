@@ -179,7 +179,7 @@ resource "azurerm_linux_virtual_machine" "main" {
   name                = "${var.resource_prefix}-vm"
   resource_group_name = azurerm_resource_group.main.name
   location            = azurerm_resource_group.main.location
-  size                = "Standard_B2ats_v2"
+  size                = "Standard_DS1_v2"
   admin_username      = var.admin_username
 
   disable_password_authentication = true
